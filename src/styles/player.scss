@@ -1,0 +1,14 @@
+@import 'shared/colors';
+@import 'shared/layouts';
+
+.player {
+    @include full-center();
+
+    background: $darkest;
+    flex: 0 0 50px;
+    height: 50px;
+    width: 50px;
+
+    color: $bright;
+    border-radius: 4px;
+}

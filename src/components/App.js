@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
+import HTML5Backend from 'react-dnd-html5-backend';
+import { DragDropContext } from 'react-dnd';
 
-import Hero from './Hero';
-import Content from './Content';
+import Player from 'Containers/PlayerContainer';
 
 import 'Styles/app.scss';
 
-export default class App extends Component {
+class App extends Component {
     render() {
         return (
             <div className="container">
-                <Hero />
-                <Content />
+                <Player number={37} />
             </div>
         );
     }
 }
+
+export default DragDropContext(HTML5Backend)(App);

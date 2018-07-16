@@ -9,6 +9,7 @@
                 "alias": {
                     "Test": "./test",
                     "Components": "./src/components",
+                    "Containers": "./src/containers",
                     "Styles": "./src/styles",
                     "Img": "./assets/img"
                 }
