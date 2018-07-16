@@ -1,0 +1,7 @@
+$hero-height: 500px;
+
+@mixin full-center() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

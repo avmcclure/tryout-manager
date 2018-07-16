@@ -1,0 +1,14 @@
+@import 'shared/colors';
+@import 'shared/layouts';
+
+.hero {
+    width: 100%;
+    height: $hero-height;
+
+    @include full-center();
+
+    .tagline {
+        color: $brightest;
+        font-size: 3rem;
+    }
+}

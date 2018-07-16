@@ -1,0 +1,18 @@
+{
+    "presets": ["react", "env"],
+    "plugins": [
+        "transform-class-properties",
+        [
+            "module-resolver",
+            {
+                "root": ["./src"],
+                "alias": {
+                    "Test": "./test",
+                    "Components": "./src/components",
+                    "Styles": "./src/styles",
+                    "Img": "./assets/img"
+                }
+            }
+        ]
+    ]
+}
