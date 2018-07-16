@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 
 import 'Styles/player.scss';
 
-
-
 class Player extends Component {
     static propTypes = {
         number: PropTypes.number.isRequired,

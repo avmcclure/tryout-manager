@@ -1,5 +1,6 @@
 module.exports = {
     ItemTypes: {
-        PLAYER: Symbol('PLAYER')
+        PLAYER: Symbol('PLAYER'),
+        UNASSIGNED: Symbol('UNASSIGNED')
     }
 };
